@@ -1,4 +1,5 @@
 import pytest
 
 
-print("hello")
+def test_001(self, login):
+    print(login)
